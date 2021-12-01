@@ -35,7 +35,7 @@ Ejemplo:
 - La interfaz de la aplicación no es relevante, pero puntos extras si le das un poco de color y estilo.
 - El buscador debe soportar multi criterios, es decir, poder buscar por álbum, artista o título, incluso de manera combinada (tal como funciona el de Spotify).
 - El campo de búsqueda debe incluir validación ¿Cuál? `Evaluaremos tu criterio`.
-- El historial de búsqueda debe ser persistente.
+- El historial de reproducción de canciones debe ser persistente `update 01 diciembre`
 
 ### Los criterios de evaluación serán
 
