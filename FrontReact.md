@@ -1,10 +1,11 @@
 ¡Hola!
 
-Continuando con el proceso, la prueba para pasar a la siguiente etapa consiste en hacer un buscador de música usando la data de `Spotify` a través de su API, puntualmente queremos que desarrolles las siguientes características:
+Continuando con el proceso, la prueba para pasar a la siguiente etapa consiste en hacer un buscador de personajes de la serie `the Rick and Morty` a través de esta [GraphQl API](https://rickandmortyapi.com/graphql), puntualmente queremos que desarrolles las siguientes características:
 
-- Listar la información de un album, artista o canción
-- Posibilidad de escuchar un preview de la canción.
-- Cada canción que fue escuchada, debe quedar en un historial del usuario para luego volver a consultarla. `Evaluaremos tu criterio de como resolver este problema.`
+- Listar personajes que aparecen en la serie (imagen, nombre)
+- Al cliquear sobre uno de ellos enviar a página con su información detallada (La que creas conveniente)
+- Poder guardar como favorito alguno de los personajes
+- Vista con los favoritos que guardaste
 
 ### Ejercicio extra
 
@@ -31,11 +32,10 @@ Ejemplo:
 ### La pauta
 
 - La aplicación debe ser desarrollada usando Reactjs 16.14+
+- Conectarse con la api a través de Apollo Client
 - Manejar estados globalmente con Redux
 - La interfaz de la aplicación no es relevante, pero puntos extras si le das un poco de color y estilo.
-- El buscador debe soportar multi criterios, es decir, poder buscar por álbum, artista o título, incluso de manera combinada (tal como funciona el de Spotify).
-- El campo de búsqueda debe incluir validación ¿Cuál? `Evaluaremos tu criterio`.
-- El historial de reproducción de canciones debe ser persistente `update 01 diciembre`
+- El historial de favoritos debe ser persistente `update 01 diciembre`
 
 ### Los criterios de evaluación serán
 
